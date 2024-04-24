@@ -1,0 +1,29 @@
+.mainAddTaskBody {
+    background-color: bisque;
+    width: 1000px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainAddTask {
+    background-color: blueviolet;
+    height: 50px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.mainAddTask input {
+    width: 900px;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.mainAddTask button {
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
