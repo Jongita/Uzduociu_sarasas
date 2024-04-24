@@ -1,5 +1,5 @@
 .container {
-    background-color: aqua;
+    /* background-color: lightcyan; */
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -9,7 +9,7 @@
 }
 
 .row {
-    background-color: blue;
+    
     height: 95%;
     width: 95%;
     display: flex;
@@ -19,7 +19,7 @@
 }
 
 .addtaskContainer {
-    background-color: yellow;
+    background-color: #f8f88d;
     height: 10%;
     width: 90%;
     display: flex;
@@ -28,7 +28,7 @@
 }
 
 .showTaskContainer {
-    background-color: red;
+   
     height: 80%;
     width: 90%;
     

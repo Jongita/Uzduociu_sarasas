@@ -3,7 +3,6 @@
         <li class="showTaskItem">
             <div class="taskContainer" *ngFor="let item of taskList; let i=index">
                 <textarea class="taskDescrption" name="" id="" cols="30" rows="10">{{ item.description }}</textarea>
-                <!-- <div class="taskDescrption">{{ item.description }}</div> -->
                 <div class="taskButton">
                     <button class="btnDone" (click)="deleteItem(i)">X</button>
                 </div>

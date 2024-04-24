@@ -1,5 +1,5 @@
 .showTaskbody {
-    background-color: yellow;
+    background-color: #f8f88d;
     width: 100%;
     height: 95%;
     display: flex;
@@ -7,7 +7,7 @@
 }
 
 .showTaskGroup {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     list-style-type: none;
     width: 95%;
     height: 100%;
@@ -15,7 +15,7 @@
 }
 
 .showTaskItem {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     display: flex;
     gap: 10px;
     width: 50%;

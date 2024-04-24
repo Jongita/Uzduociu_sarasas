@@ -1,5 +1,5 @@
 .mainAddTaskBody {
-    background-color: bisque;
+    /* background-color: bisque; */
     width: 1000px;
     height: 70px;
     display: flex;
@@ -8,7 +8,7 @@
 }
 
 .mainAddTask {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 50px;
     width: 1000px;
     display: flex;
