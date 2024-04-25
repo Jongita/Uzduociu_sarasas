@@ -1,7 +1,7 @@
 .showTaskbody {
     background-color: #f8f88d;
     width: 100%;
-    height: 95%;
+    min-height: 95%;
     display: flex;
     justify-content: center;
 }
