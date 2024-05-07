@@ -1,18 +1,20 @@
 .mainAddTaskBody {
-    /* background-color: bisque; */
-    width: 1000px;
+    background-color: bisque;
+    width: 70%;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .mainAddTask {
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     height: 50px;
-    width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    
    
 }
 

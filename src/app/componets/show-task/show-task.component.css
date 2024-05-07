@@ -1,7 +1,7 @@
 .showTaskbody {
     background-color: #f8f88d;
     width: 100%;
-    min-height: 95%;
+    min-height: 90%;
     display: flex;
     justify-content: center;
 }
@@ -10,7 +10,7 @@
     /* background-color: blueviolet; */
     list-style-type: none;
     width: 95%;
-    height: 100%;
+    height: 90%;
     
 }
 
