@@ -3,30 +3,18 @@
     width: 100%;
     min-height: 90%;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-/* .showTaskGroup {
-    list-style-type: none;
-    
-    height: 90%;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    background-color: blue;
-} */
 
 .showTaskItem {
     display: flex;
     gap: 10px;
-    /* width: 100%; */
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content: center;
-    /* background-color: violet; */
     padding: 20px 0;
 }
 
@@ -44,8 +32,6 @@
     align-items: center;
     gap: 10px;
     position: relative;
-    /* margin: 20px 0; */
- 
 }
 .taskDescrption {
     background-color: #55AD9B;
