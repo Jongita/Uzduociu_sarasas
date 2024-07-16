@@ -1,8 +1,7 @@
 .mainAddTask {
     display: flex;
     align-items: center;
-    
-    
+    padding: 10px 0;
 }
 
 .mainAddTask input {
@@ -23,7 +22,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 360px) {
     .mainAddTask {
         flex-direction: column;
     }
