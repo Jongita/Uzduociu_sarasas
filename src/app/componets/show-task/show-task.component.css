@@ -1,32 +1,36 @@
 .showTaskbody {
-    background-color: #f8f88d;
+    background-color: #D8EFD3;
     width: 100%;
     min-height: 90%;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .showTaskGroup {
-    /* background-color: blueviolet; */
     list-style-type: none;
-    width: 95%;
+    /* width: 95%; */
     height: 90%;
-    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .showTaskItem {
-    /* background-color: lightblue; */
     display: flex;
     gap: 10px;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .taskContainer {
-    background-color: greenyellow;
+    background-color: #55AD9B;
     min-width: 200px;
     min-height: 200px;
-    border: 2px solid grey;
+    border: 2px solid #55AD9B;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -34,14 +38,16 @@
     align-items: center;
     gap: 10px;
     position: relative;
-    
+ 
 }
-
 .taskDescrption {
-    background-color: greenyellow;
-    width: 180px;
-    height: 160px;
+    background-color: #55AD9B;
+    width: 190px;
+    height: 165px;
     border: none;
+    font-size: 16px;
+    color: black;
+    word-wrap: break-word;
 }
 
 .btnDone {

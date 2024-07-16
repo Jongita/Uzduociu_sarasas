@@ -1,40 +1,8 @@
-/* .mainAddTaskBody {
-    background-color: bisque;
-    width: 70%;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.mainAddTask {
-    background-color: blueviolet;
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-   
-}
-
-.mainAddTask input {
-    width: 900px;
-    border-radius: 10px;
-    border: 2px solid grey;
-}
-
-.mainAddTask button {
-    width: 100px;
-    border-radius: 10px;
-    border: 2px solid grey;
-} */
-
 .mainAddTask {
     display: flex;
     align-items: center;
     
-    background-color: aqua;
+    
 }
 
 .mainAddTask input {
@@ -42,14 +10,16 @@
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .mainAddTask button.btnAdd {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #55AD9B;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 
