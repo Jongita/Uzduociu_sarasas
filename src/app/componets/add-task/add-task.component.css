@@ -1,4 +1,4 @@
-.mainAddTaskBody {
+/* .mainAddTaskBody {
     background-color: bisque;
     width: 70%;
     height: 70px;
@@ -28,4 +28,37 @@
     width: 100px;
     border-radius: 10px;
     border: 2px solid grey;
+} */
+
+.mainAddTask {
+    display: flex;
+    align-items: center;
+    
+    background-color: aqua;
+}
+
+.mainAddTask input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.mainAddTask button.btnAdd {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .mainAddTask {
+        flex-direction: column;
+    }
+
+    .mainAddTask input {
+        margin-bottom: 10px;
+    }
 }
